@@ -8,8 +8,8 @@ class GeminiService {
     }
 
     this.apiKey = GEMINI_API_KEY;
-    this.baseUrl = 'https://generativelanguage.googleapis.com/v1'; // ✅ correct API version
-    this.model = 'models/gemini-2.0-flash'; // ✅ working model
+    this.baseUrl = 'https://generativelanguage.googleapis.com/v1/models';
+    this.model = 'gemini-2.5-flash';
     this.conversations = new Map();
   }
 
